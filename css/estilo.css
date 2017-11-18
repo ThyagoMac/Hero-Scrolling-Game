@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+.painel-hp {
+    position: absolute;
+    bottom: 0;
+    margin: 0px 0px 10px 10px;
+}
+.hp {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.menuApple {
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 5px;
+    margin: auto;
+}
+.icone {
+    width: 70px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menuBox {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    margin: auto;
+}
+.painel-text {
+    background-color: rgb(192, 192, 192);
+}
+.painel-background {
+    background-color: rgb(226, 226, 226);
+}
+
+
+
+.top1, top2 {
+    line-height: 30px;
+}
+
+.painel-background {
+    width: 100%;
+    max-width: 860px;
+    height: 500px;
+    margin: auto;
+}
+.enemy {
+    background-color: rgb(248, 209, 209);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.painel-text {
+    width: 100%;
+    max-width: 860px;
+    height: 200px;
+    margin: auto;
+}
+
+@media (max-width: 760px) {
+    .painel-hp {
+        
+        margin: 0px 0px 110px 150px;
+    }
+}
+/* test */ 
